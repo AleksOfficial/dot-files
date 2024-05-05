@@ -126,7 +126,7 @@ JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-22.jdk/Contents/Home
 export JAVA_HOME
 export PATH=$PATH:$JAVA_HOME/bin
 
-if [ -f ~/.env]; then
+if [ -f ~/.env ]; then
   source ~/.env
 fi
 
