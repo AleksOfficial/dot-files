@@ -1,0 +1,9 @@
+# Ingore all files and folders
+*
+
+#Except zsh files and the other important ones
+!.zshrc
+!.vimrc
+!.config/nvim
+!.config/neofetch
+!.gitignore
