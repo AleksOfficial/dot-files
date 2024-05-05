@@ -1,9 +1,12 @@
 # Ignore all files and folders
 *
+!.config
 
+
+.config/*
+!.config/nvim/
+!.config/nvim/*
 # Except zsh files and the other important ones
 !.zshrc
 !.vimrc
-!.config/nvim
-!.config/neofetch
 !.gitignore
